@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MacBook Pro</title>
+
+    <!-- ........Bootstrap CSS link.......  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
@@ -16,14 +18,11 @@
     </header>
     <main>
         <section class="container mx-auto">
-
             <div class="d-flex mt-5">
                 <div class="mx-5">
                     <img class="img-fluid" src="images/mac.png" alt="">
                 </div>
-
-                <!-- Choose Option List  -->
-
+                <!-- .........Descriptive headLine......... -->
                 <div class="mx-5">
                     <h2>Customize your MAC with M1 Chip</h2>
                     <p>MacBook Pro is a new top-notch Apple laptop that delivers powerful performance and amazing
@@ -32,7 +31,8 @@
                         switch mechanism underneath and stability. The new M1 Apple chip integrates CPU, GPU and Neural
                         Engine that maximizes the performance.</p>
 
-                    <!-- Memory Option  -->
+                    <!--...... Choose Option List......  -->
+                    <!--.......... Memory Option ....... -->
                     <div class="my-3">
                         <h5>Memory</h5>
                         <button id="8GB-btn" type="button" class="btn btn-light btn-sm mx-2">8 GB unified
@@ -40,7 +40,7 @@
                         <button id="16GB-btn" type="button" class="btn btn-light btn-sm">16 GB unified Memory</button>
                     </div>
 
-                    <!-- Storage Option  -->
+                    <!-- .........Storage Option ......... -->
                     <div class="my-3">
                         <h5>Storage</h5>
                         <button id="256GB-ssd" type="button" class="btn btn-light btn-sm mx-2">256 GB SSD
@@ -50,7 +50,7 @@
                             Memory</button>
                     </div>
 
-                    <!-- Delivery Option -->
+                    <!--........Delivery Option........-->
                     <div class="my-3">
                         <h5>Choose your Delivery Option</h5>
                         <button id="free-delivery" type="button" class="btn btn-light btn-sm mx-2">Friday, August 25
@@ -60,7 +60,7 @@
                             Charge-20$</button>
                     </div>
 
-                    <!-- List Item -->
+                    <!-- ...........List Item..........-->
                     <div class="mt-5" style="width: 25rem;">
                         <ul class="list-group list-group-flush ">
 
@@ -85,6 +85,8 @@
                             </li>
                         </ul>
                     </div>
+
+                    <!--........ Promo Code...........  -->
                     <div class="my-3">
                         <h4>ADD Promo Code</h4>
                         <input id="promo-input" type="text" placeholder="Promo Code">
@@ -92,12 +94,16 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <h3 class="text-center my-3 border-top border-dark">Total: $<span id="grand-total">1299</span>
-                </h3>
-            </div>
         </section>
     </main>
+
+    <!-- ........footer........  -->
+    <footer>
+        <h3 class="text-center my-3 border-top border-dark">Total: $<span id="grand-total">1299</span>
+        </h3>
+    </footer>
+
+    <!--....... Script Resource....... -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>
